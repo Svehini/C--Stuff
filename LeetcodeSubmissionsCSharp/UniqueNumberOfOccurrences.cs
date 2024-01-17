@@ -12,7 +12,7 @@ public class Solution {
         List<object> noDups = new List<object>();
         foreach (int num in allOccs){
             if (!noDups.Contains(num))
-            noDups.Add(num);
+            noDups.Add(num);v
             else
             return false;
         }
